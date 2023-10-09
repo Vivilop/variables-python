@@ -30,16 +30,17 @@ y las variables flotantes python utiliza el estan estandar de punto flotante de 
 
 """
 # formula de suma de los numeros pares
-print( " ingrese el numero inicial ")
-i = int (input())
-print ("ingrese el numero final")
-f = int (input())
 suma = 0
-print ("** los numeros pares del rango**")
-while i <= f :
-    if i % 2 == 0:
-         print(i)
-    it=1  
+n = 1
+while n !=0:
+    n= int(input("ingresa un numero:"))
+    if n != 0:
+        if n % 2 == 0:
+            suma = suma + n
+print("La suma de los numeros pares es:",suma)  
+          
+
+
     
 
 
