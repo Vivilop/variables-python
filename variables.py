@@ -29,5 +29,17 @@ arbitraria quiere decir que se limita por la cantidad de memoria disponible en s
 y las variables flotantes python utiliza el estan estandar de punto flotante de doble precision
 
 """
+# formula de suma de los numeros pares
+print( " ingrese el numero inicial ")
+i = int (input())
+print ("ingrese el numero final")
+f = int (input())
+suma = 0
+print ("** los numeros pares del rango**")
+while i <= f :
+    if i % 2 == 0:
+         print(i)
+    it=1  
+    
 
 
