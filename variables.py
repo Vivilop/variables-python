@@ -21,4 +21,13 @@ altura = 1.75
 mensaje = 'Hola, mi nombre es ' + nombre + ', tengo ' +  str (edad) +  'años y mido' +  str (altura) + ' metros. '
 print (mensaje)
 
+"""
+limite de enteros de las variables enteras y flotantes:
+
+el limite de los enteros en python depende de la version que se tenga en python 3 los enteros son de presion 
+arbitraria quiere decir que se limita por la cantidad de memoria disponible en su sistema
+y las variables flotantes python utiliza el estan estandar de punto flotante de doble precision
+
+"""
+
 
